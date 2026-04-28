@@ -1,0 +1,50 @@
+# Core
+fastapi==0.115.11
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+python-dotenv==1.0.1
+
+# OSINT Modules Core
+maigret>=0.4.5
+holehe>=2.3.0
+theHarvester>=4.6.0
+
+# Web & Network
+requests>=2.32.4
+beautifulsoup4>=4.13.4
+aiohttp>=3.11.13
+httpx>=0.28.1
+selenium>=4.28.1
+
+# Async & Parallel
+asyncio-throttle>=1.0.2
+aiolimiter>=1.2.1
+
+# Data Processing
+pandas>=2.2.3
+numpy>=2.2.3
+
+# AI/ML (Optional)
+openai>=2.5.0
+langgraph>=0.6.9
+
+# Reporting
+fpdf2>=2.8.3
+jinja2>=3.1.6
+markdown>=3.7
+tabulate>=0.9.0
+
+# Security & Crypto
+cryptography>=44.0.0
+python-magic>=0.4.27
+
+# Database
+sqlalchemy>=2.0.41
+aiosqlite>=0.21.0
+redis>=6.1.0
+celery>=5.5.0
+
+# Utils
+colorama>=0.4.6
+tqdm>=4.67.1
+python-dateutil>=2.9.0
