@@ -1,0 +1,28 @@
+# Core
+fastapi==0.115.11
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+python-dotenv==1.0.1
+
+# OSINT Modules
+maigret>=0.4.5
+holehe>=2.3.0
+theHarvester>=4.6.0
+requests>=2.32.4
+beautifulsoup4>=4.13.4
+shodan>=1.32.0
+
+# Async & DB
+celery>=5.5.0
+redis>=6.1.0
+sqlalchemy>=2.0.41
+aiosqlite>=0.21.0
+httpx>=0.28.1
+
+# AI (opcional inicial)
+openai>=2.5.0
+langgraph>=0.6.9
+
+# Reporting
+fpdf2>=2.8.3
+jinja2>=3.1.6
